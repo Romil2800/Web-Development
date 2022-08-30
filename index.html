@@ -2,23 +2,92 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css" >
-    <title>Halifax Canoe and Kayak</title>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Project 1</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 </head>
 
 <body>
-    <div class="container">
-        <img src="canoe.jpg" alt="Canoe" width="1000px" height="500px">
-        <div class="centerText">
-           Come Experience Canada 
+    <!-- Top Header -->
+    <header id="mainHeader">
+        <ul>
+            <li><img class="hamburger" src="img/hamburger.png" alt="Hamburger" /></li>
+            <li>Welcome To Adventure Activities</li>
+            <li><img class="paddleWhite" src="img/paddle-white.png" alt="Paddle" /></li>
+        </ul>
+    </header>
+
+    <!-- Sidebar -->
+    <aside class="sidebar">
+        <ul>
+            <img class="sidebarImage" src="img/sidebar.jpg" alt="sidebar" />
+            <img class="cancel" src="img/cancel.png" alt="cancel" />
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Book Trip</a></li>
+            <li><a href="#">Admin Login</a></li>
+        </ul>
+    </aside>
+
+    <!-- Main Content -->
+    <article>
+        <div class="container">
+            <main id="main">
+                <div id="home">
+                    <h1>
+                        Come Experience <br />
+                        Canada
+                    </h1>
+                </div>
+
+                <h1>Things to Do in Dartmouth</h1>
+                <hr />
+
+                <!-- Sections -->
+                <!-- Section 1 -->
+                <section>
+                    <h2>Shubie Park</h2>
+
+                    <p>Location : 54 Locks Rd</p>
+                    <p>Activities : Biking, Walking and Kayaking</p>
+
+                    <p class="summary">Summary</p>
+                    <p>
+                        Shubie Park is a 16-hectare urban park in Dartmouth, Nova Scotia maintained
+                        by the Halifax Regional Municipality. Heavily forested, Shubie Park is roughly
+                        linear in shape as it is bounded on the north and west by Highway 118
+                        expressway and on the south and east by Lake Micmac and the southern
+                        edge of Lake Charles
+                    </p>
+                </section>
+
+                <!-- Section 2 -->
+                <section>
+                    <h2>Playdium</h2>
+
+                    <p>Location : Dartmouth Crossing</p>
+                    <p>Activities : Indoor Activities</p>
+
+                    <p class="summary">Summary</p>
+                    <p>
+                        GRAB a game tag and take control! Challenge your friends in a VR adventure,
+                        score a strike in the bowling lane or battle
+                        it out on our video games.
+                    </p>
+                </section>
+            </main>
         </div>
-    </div>
-   
-    
-    <h1>Upcoming Adventures</h1>
+    </article>
+
+    <!-- Footer-->
+    <footer>
+        <small>
+            &copy;Skill for hire Project 1<br />
+        </small>
+    </footer>
+    <script type="text/javascript" src="script.js"></script>
 </body>
 
 </html>
